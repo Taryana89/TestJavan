@@ -1,0 +1,47 @@
+.galleriess{
+    display: grid;
+    width: 210px;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 5px;
+    margin-left: 5px;
+  }
+  .galleries-container > img{
+    width : 400px;
+    height: 400px;
+  }
+  .galleries img{
+    border-radius: 5px;
+    border: 1px solid #a4a5a7;
+  }
+  .thumb span img{
+    width: 70px;
+    height: 70px;
+    display: inline;
+  }
+  .card{
+    box-shadow:  0 0px 5px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+  }
+  img{
+    object-fit: cover;
+  }
+  .img{
+    width: 170px;
+  }
+  button > span{
+    font-size: 15px;
+  }
+  .display-custom{
+    display: flex;
+    flex-direction: row;
+  }
+  @media (max-width: 650px) {
+    .display-custom{
+      display: flex;
+      flex-direction: column !important;
+    }
+    .img{
+      width: 100%;
+    }
+  }
